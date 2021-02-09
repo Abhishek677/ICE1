@@ -3,16 +3,19 @@ package CardATrick;
 
 import CardATrick.Card.Suit;
 import CardATrick.Card.Value;
+
 import java.util.*;
 /**
  * Name: Abhishek Jassal
  * Student ID:991605946
+ * DATE:9/feb/2021
  * @author Abhishek
  */
 public class CardTrick {
    
-    public static void main(String[] args)
-    {     
+    public static void main(String[] args)       
+    {
+        Random random = new Random();
         //This is scanner class to take user input
          Scanner input = new Scanner(System.in);
         
@@ -20,7 +23,7 @@ public class CardTrick {
         Value[] cardValues = Value.values();
         
         // We'll use Random to generate random numbers
-        Card[] magicHand = CardGenerator.generateCards(7, cardSuits, cardValues);
+        Card[] magicHand = LuckyCard.generateCards(7, cardSuits, cardValues);
         
         for (int i=0; i<magicHand.length; i++)
         {
@@ -76,7 +79,8 @@ public class CardTrick {
         String response = match ? "Card in Magic Hand": "No match";
         
         System.out.println(response);
+    }
         
          
     }
-}
+

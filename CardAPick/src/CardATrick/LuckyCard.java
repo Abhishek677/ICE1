@@ -4,8 +4,14 @@ import CardATrick.Card.Suit;
 import CardATrick.Card.Value;
 import java.util.*;
 
+/**
+ * Name: Abhishek Jassal
+ * Student ID:991605946
+ * DATE:9/feb/2021
+ * @author Abhishek
+ */
 
-public class CardGenerator
+public class LuckyCard
 {
   public static Card[] generateCards(int numCards,Suit[] cardSuits,Value[] cardValues)
     {

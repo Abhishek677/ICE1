@@ -1,8 +1,9 @@
 package CardATrick;
 
 /**
- * Name: Abhishek Jassal Student ID:991605946
- *
+ * Name: Abhishek Jassal
+ * Student ID:991605946
+ * DATE:9/feb/2021
  * @author Abhishek
  */
 public class Card {
