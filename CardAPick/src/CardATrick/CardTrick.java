@@ -15,6 +15,7 @@ public class CardTrick {
    
     public static void main(String[] args)       
     {
+        
         Random random = new Random();
         //This is scanner class to take user input
          Scanner input = new Scanner(System.in);
