@@ -15,16 +15,12 @@ public class CardTrick {
     {     
         //This is scanner class to take user input
          Scanner input = new Scanner(System.in);
-         
-         //this is random class to generate random number
-        
-        Card[] magicHand = new Card[7];
         
         Suit[] cardSuits = Suit.values();
         Value[] cardValues = Value.values();
         
         // We'll use Random to generate random numbers
-        Random random = new Random();
+        Card[] magicHand = CardGenerator.generateCards(7, cardSuits, cardValues);
         
         for (int i=0; i<magicHand.length; i++)
         {
